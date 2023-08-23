@@ -1,21 +1,53 @@
 <!DOCTYPE html>
+
 <html>
-<head>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <title>Styled Webpage</title>
-</head>
-<body>
-    <article>
-        <p>This is the first paragraph with white text on black background.</p>
-        <p>This is the second paragraph with standard text color.</p>
-        <p>This is the third paragraph with red text.</p>
-    </article>
-    <ul>
-        <li class="odd"> First Item 1</li>
-        <li>Item 2</li>
-        <li class="pink"> Second Item 3</li>
-        <li>Item 4</li>
-        <li class="odd">Third Item 5</li>
-    </ul>
-</body>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      html {
+        background-color: rgb(135, 206, 235);
+      }
+      p:first-child {
+        background-color: black;
+        color: white;
+      }
+      p:nth-child(4) {
+        color: red;
+      }
+      ul > li {
+        width: 50%;
+        background-color: grey;
+        padding: 10px;
+      }
+      ul > li:nth-child(1) {
+        background-color: white;
+        font-size: 22px;
+      }
+      ul > li:nth-child(5) {
+        background-color: white;
+        font-size: 22px;
+      }
+      ul > li:nth-child(3) {
+        background-color: pink;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- the entire body must be written by student -->
+    <div>
+      <p>First paragraph</p>
+      <p>the 1960s with the release of Letraset sheets containing</p>
+      <p>the 1960s with the release of Letraset sheets containing</p>
+      <p>the 1960s with the release of Letraset sheets containing</p>
+      <ul>
+        <li>First Item</li>
+        <li>Second Item</li>
+        <li>Third Item</li>
+        <li>Fourth Item</li>
+        <li>Fifth Item</li>
+      </ul>
+    </div>
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
 </html>
