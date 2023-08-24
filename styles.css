@@ -1,1 +1,23 @@
-
+*{
+    background-color: rgb(135, 206, 235);
+}
+li{
+    background-color: gray;
+    width: 50p;
+    padding: 10px;
+    border: 2px ;
+    
+}
+.third{
+    background-color: pink;
+}
+.first,.five{
+    font-size: 22px;
+    background-color: white;
+}
+.last-child{
+	color:red;
+}
+.first-child{
+	color:white;
+}
